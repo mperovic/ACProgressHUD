@@ -10,10 +10,9 @@ DESC
 s.homepage     = "https://github.com/ErAbhishekChandani/ACProgressHUD"
 s.license      = "MIT"
 s.author             = { "Abhishek" => "chandani.abhishek440@gmail.com" }
-s.platform     = :tvOS, "10.0"
-s.platform     = :ios, "8.0"
+s.platforms = { :ios => "8.0", :watchos => "2.0", :tvos => "9.0" }
 
-s.source       = { :git => "https://github.com/ErAbhishekChandani/ACProgressHUD.git", :tag => s.version }
+s.source       = { :git => "https://github.com/mperovic/ACProgressHUD.git", :tag => s.version }
 
 s.source_files = 'Source/*.swift'
 s.resources    = 'Source/*.xib'
